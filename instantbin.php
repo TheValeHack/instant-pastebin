@@ -85,7 +85,7 @@ if($c == '1'){
     $isi = trim(fgets(STDIN));
 }
 else if ($c == '2'){
-    echo "File Name ~> ";
+    echo "File Name / File Path~> ";
     $fname = trim(fgets(STDIN));
        if(file_exists($fname)){
           $isi = file_get_contents($fname);
